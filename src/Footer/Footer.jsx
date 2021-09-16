@@ -1,5 +1,5 @@
 import React from "react";
-import "./StyleSheet.css";
+import "../StyleSheet.css";
 import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {

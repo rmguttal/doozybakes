@@ -1,6 +1,6 @@
 import React from "react";
 import Divider from "./Divider";
-import "./StyleSheet.css";
+import "../StyleSheet.css";
 
 function SectionHeading({ titleText }) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeading from "./SectionHeading";
+import SectionHeading from "../shared/SectionHeading";
 import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Contact() {
@@ -11,7 +11,9 @@ function Contact() {
         <FaWhatsapp
           size="2em"
           href="www.google.com"
-          style={{ cursor: "pointer" }}
+          style={{
+            cursor: "pointer",
+          }}
           onClick={() =>
             window.open(
               "https://api.whatsapp.com/send/?phone=12146002079&text&app_absent=0",

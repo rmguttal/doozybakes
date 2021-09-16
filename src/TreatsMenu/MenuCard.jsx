@@ -1,5 +1,5 @@
 import React from "react";
-import "./StyleSheet.css";
+import "../StyleSheet.css";
 
 function MenuCard({ sourceImage, titleText, descTxt }) {
   return (

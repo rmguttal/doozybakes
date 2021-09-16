@@ -1,7 +1,7 @@
 import React from "react";
-import SectionHeading from "./SectionHeading";
-import img1 from "./assets/doozy media from wix/IMG-20210325-WA0014_edited.jpg";
-import img2 from "./assets/doozy media from wix/IMG_2511.JPG_edited.jpg";
+import SectionHeading from "../shared/SectionHeading";
+import img1 from "../assets/doozy media from wix/IMG-20210325-WA0014_edited.jpg";
+import img2 from "../assets/doozy media from wix/IMG_2511.JPG_edited.jpg";
 
 function AboutUs({ id }) {
   return (

@@ -2,9 +2,9 @@ import React from "react";
 
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import t1 from "./assets/doozy media from wix/Testimonial 1.png";
-import t2 from "./assets/doozy media from wix/Testimonial 2.png";
-import t3 from "./assets/doozy media from wix/Testimonial 3.png";
+import t1 from "../assets/doozy media from wix/Testimonial 1.png";
+import t2 from "../assets/doozy media from wix/Testimonial 2.png";
+import t3 from "../assets/doozy media from wix/Testimonial 3.png";
 
 class BootstrapCarouselComponent extends React.Component {
   render() {

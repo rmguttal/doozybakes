@@ -3,7 +3,7 @@ import AboutUs from "./AboutUs";
 
 import Header from "./Header";
 import MiddleVideo from "./MiddleVideo";
-import TestimonialsSection from "./TestimonialsSection";
+import Testimonials from "./Testimonials";
 import TreatsMenu from "./TreatsMenu";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -15,7 +15,7 @@ function App() {
       <AboutUs id="aboutUs" />
       <MiddleVideo />
       <TreatsMenu id="treatsMenu" />
-      <TestimonialsSection id="testimonials" />
+      <Testimonials id="Testimonials" />
       <Contact id="contacts" />
       <Footer />
     </div>

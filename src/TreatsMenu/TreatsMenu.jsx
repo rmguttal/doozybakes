@@ -1,17 +1,17 @@
 import React from "react";
-import SectionHeading from "./SectionHeading";
+import SectionHeading from "../shared/SectionHeading";
 import MenuCard from "./MenuCard";
-import DM from "./assets/doozy media from wix/DM.jpg";
-import dac from "./assets/doozy media from wix/dac.jpg";
-import of from "./assets/doozy media from wix/of.jpg";
-import healer from "./assets/doozy media from wix/healer.jpg";
-import khaara from "./assets/doozy media from wix/khaara.jpg";
-import assorted from "./assets/doozy media from wix/assorted.jpg";
-import dmBites from "./assets/doozy media from wix/dmBites.jpg";
-import dacBites from "./assets/doozy media from wix/dacBites.jpg";
-import pupNibbles from "./assets/doozy media from wix/pupNibbles.jpg";
-import bananaLoaf from "./assets/doozy media from wix/bananaLoaf.jpg";
-import spLoaf from "./assets/doozy media from wix/spLoaf.jpg";
+import DM from "../assets/doozy media from wix/DM.jpg";
+import dac from "../assets/doozy media from wix/dac.jpg";
+import of from "../assets/doozy media from wix/of.jpg";
+import healer from "../assets/doozy media from wix/healer.jpg";
+import khaara from "../assets/doozy media from wix/khaara.jpg";
+import assorted from "../assets/doozy media from wix/assorted.jpg";
+import dmBites from "../assets/doozy media from wix/dmBites.jpg";
+import dacBites from "../assets/doozy media from wix/dacBites.jpg";
+import pupNibbles from "../assets/doozy media from wix/pupNibbles.jpg";
+import bananaLoaf from "../assets/doozy media from wix/bananaLoaf.jpg";
+import spLoaf from "../assets/doozy media from wix/spLoaf.jpg";
 
 const dmTxt =
   "Indulge in our favorite triple chocolate fudge cookie and satisfy the cookie monster within you.";
