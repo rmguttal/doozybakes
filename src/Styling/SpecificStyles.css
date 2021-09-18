@@ -1,0 +1,232 @@
+#header-main {
+  display: flex;
+  height: 35em;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+#header-logo {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+#header-logo img {
+  height: 100%;
+  width: 300px;
+  position: absolute;
+}
+
+#logo-inner-circle {
+  animation: logoReveal ease-in-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 4;
+}
+
+@keyframes logoReveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#logo-text {
+  animation: logoReveal ease-in-out 1s, txtWriteon ease-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 5;
+  transform: scale(0.5);
+  transition: transform ease 0.2s;
+}
+
+@keyframes txtWriteon {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+#logo-text:hover {
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform ease 0.2s;
+}
+
+#logo-outer-circle {
+  animation: logoReveal ease-in-out 1s, outerCircleRotate ease-out 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  z-index: 4;
+}
+
+@keyframes outerCircleRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(718deg);
+  }
+}
+
+#header-video-container {
+  height: 35em;
+  width: 100%;
+  position: absolute;
+}
+
+#header-video {
+  height: 35em;
+  width: 100%;
+  overflow: hidden;
+  opacity: 1;
+  object-position: center center;
+  object-fit: cover;
+}
+
+#header-btn-menu {
+  display: flex;
+  z-index: 5;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-right: 2em;
+  margin-left: 2em;
+  position: sticky;
+}
+#text-box-div {
+  margin-bottom: 1em;
+  border-width: 1px;
+  border: 1px solid black;
+  width: 30em;
+  padding: 2em;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#text-box-div h2 {
+  margin-bottom: 1em;
+}
+
+#text-box-div p {
+  text-align: justify;
+  vertical-align: middle;
+  margin: 0;
+}
+
+#mid-video-container {
+  height: 35em;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+}
+
+#middle-video {
+  height: 35em;
+  width: 100%;
+  opacity: 1;
+  object-position: 80% -10%;
+  object-fit: cover;
+}
+
+#menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#menu-card-container {
+  margin: 4em 5em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+#menu-card-container img {
+  height: 20em;
+  width: auto;
+  display: block;
+}
+
+#menu-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 95%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#menu-card-overlay * {
+  transform: translateY(20px);
+  transition: transform 0.5s;
+}
+
+#menu-card-overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#menu-card-overlay:hover * {
+  transform: translateY(0);
+}
+
+#menu-card-overlay p {
+  font-size: 15px;
+  padding: 1em;
+}
+
+#menu-card-desc {
+  margin-top: -1em;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid black;
+  width: 12em;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#contact-icons {
+  margin: 2em;
+}
+
+#section-heading {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2em;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#line {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}

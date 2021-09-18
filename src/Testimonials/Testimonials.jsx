@@ -1,6 +1,5 @@
 import React from "react";
 import SectionHeading from "../shared/SectionHeading";
-import "../StyleSheet.css";
 import t1 from "../assets/doozy media from wix/Testimonial 1.png";
 import t2 from "../assets/doozy media from wix/Testimonial 2.png";
 import t3 from "../assets/doozy media from wix/Testimonial 3.png";
@@ -9,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 function Testimonials() {
   return (
-    <div className="divTestimonialMain" id="testimonials">
+    <div className="section" id="testimonials">
       <SectionHeading titleText="Testimonials" />
       <div style={{ width: "25em", height: "auto" }}>
         <Carousel nextLabel="" prevLabel="">

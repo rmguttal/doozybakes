@@ -12,12 +12,16 @@ function App() {
   return (
     <div>
       <Header />
-      <AboutUs id="aboutUs" />
+      <div className="main-container">
+        <AboutUs id="aboutUs" />
+      </div>
       <MiddleVideo />
-      <TreatsMenu id="treatsMenu" />
-      <Testimonials id="Testimonials" />
-      <Contact id="contacts" />
-      <Footer />
+      <div className="main-container">
+        <TreatsMenu id="treatsMenu" />
+        <Testimonials id="Testimonials" />
+        <Contact id="contacts" />
+        <Footer />
+      </div>
     </div>
   );
 }

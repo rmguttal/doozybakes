@@ -3,8 +3,8 @@ import dunkVideo from "../assets/doozy media from wix/28 - InShot_20210809_16264
 
 function MiddleVideo() {
   return (
-    <div className="divMiddleVideo">
-      <video autoPlay loop muted className="videoMiddleVideo">
+    <div id="mid-video-container">
+      <video autoPlay loop muted id="middle-video">
         <source src={dunkVideo} type="video/mp4" />
       </video>
     </div>

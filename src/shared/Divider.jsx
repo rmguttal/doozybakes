@@ -1,8 +1,7 @@
 import React from "react";
-import "../StyleSheet.css";
 
 function Divider() {
-  return <div className="divDividerLine"></div>;
+  return <div id="line" />;
 }
 
 export default Divider;

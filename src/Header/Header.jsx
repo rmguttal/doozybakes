@@ -8,29 +8,18 @@ import logoOuterCircle from "../assets/doozy media from wix/outer circle.png";
 
 function Header() {
   return (
-    <div className="divHeaderMain">
-      <div className="divHeaderLogo">
-        <img
-          src={logoTxt}
-          alt={logoTxt}
-          className="imgHeaderLogo imgHeaderLogo-txt-writeon"
-          style={{ zIndex: "5" }}
-        />
-        <img
-          src={logoCircle}
-          alt={logoCircle}
-          className="imgHeaderLogo"
-          style={{ zIndex: "4" }}
-        />
+    <div id="header-main">
+      <div id="header-logo">
+        <img src={logoTxt} alt={logoTxt} id="logo-text" className="test" />
+        <img src={logoCircle} alt={logoCircle} id="logo-inner-circle" />
         <img
           src={logoOuterCircle}
           alt={logoOuterCircle}
-          className="imgHeaderLogo imgHeaderLogo-rotate"
-          style={{ zIndex: "4" }}
+          id="logo-outer-circle"
         />
       </div>
-      <div className="divHeaderVideo">
-        <video className="videoHeaderVideo" autoPlay loop muted playsinline>
+      <div id="header-video-container">
+        <video id="header-video" autoPlay loop muted playsinline>
           <source src={tableVideo} type="video/mp4" />
         </video>
       </div>

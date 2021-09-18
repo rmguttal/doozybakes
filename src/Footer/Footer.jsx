@@ -1,5 +1,4 @@
 import React from "react";
-import "../StyleSheet.css";
 import { animateScroll as scroll } from "react-scroll";
 
 function Footer() {
@@ -7,8 +6,8 @@ function Footer() {
     scroll.scrollToTop();
   };
   return (
-    <div className="divFooterMain">
-      <button className="btnBackToTop" onClick={scrollToTop}>
+    <div className="section">
+      <button className="btn-style btn-style-footer" onClick={scrollToTop}>
         Back to Top
       </button>
     </div>

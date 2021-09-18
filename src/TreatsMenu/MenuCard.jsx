@@ -1,14 +1,15 @@
 import React from "react";
-import "../StyleSheet.css";
 
 function MenuCard({ sourceImage, titleText, descTxt }) {
   return (
-    <div className="divMenuCard">
-      <img className="imgMenuCardItem" src={sourceImage} alt={sourceImage} />
-      <div className="divMenuCardOverlay">
-        <p className="pMenuCardOverlayTxt">{descTxt}</p>
+    <div id="menu-card-container">
+      <img src={sourceImage} alt={sourceImage}></img>
+      <div id="menu-card-overlay">
+        <p>{descTxt}</p>
       </div>
-      <div className="divMenuCardtxt">{titleText}</div>
+      <div id="menu-card-desc">
+        <h3>{titleText}</h3>
+      </div>
     </div>
   );
 }

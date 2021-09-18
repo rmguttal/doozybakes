@@ -3,7 +3,7 @@ import ScrollToSection from "./ScrollToSection";
 
 function HeaderMenu() {
   return (
-    <div className="divHeaderMenuMain">
+    <div id="header-btn-menu">
       <ScrollToSection titleText="About Us" idTxt="aboutUs" />
       <ScrollToSection titleText="Doozy Treats" idTxt="treatsMenu" />
       <ScrollToSection titleText="Testimonials" idTxt="testimonials" />

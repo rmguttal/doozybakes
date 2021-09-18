@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function ScrollToSection({ titleText, idTxt }) {
   return (
-    <div className="btnHeaderMenu">
+    <button className="btn-style btn-style-header">
       <Link
         activeClass="active"
         to={idTxt}
@@ -14,7 +14,7 @@ function ScrollToSection({ titleText, idTxt }) {
       >
         {titleText}
       </Link>
-    </div>
+    </button>
   );
 }
 

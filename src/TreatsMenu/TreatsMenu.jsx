@@ -39,48 +39,49 @@ const spLoafTxt =
 
 function TreatsMenu() {
   return (
-    <div style={styles.main} id="treatsMenu">
+    <div className="section" id="treatsMenu">
       <SectionHeading titleText="Treats Menu" />
-      <MenuCard sourceImage={DM} titleText="Doozy Monster" descTxt={dmTxt} />
-      <MenuCard sourceImage={dac} titleText="Dunk-a-Chunk" descTxt={dacTxt} />
-      <MenuCard sourceImage={of} titleText="Old-Fashioned" descTxt={ofTxt} />
-      <MenuCard sourceImage={healer} titleText="Healer" descTxt={healerTxt} />
-      <MenuCard
-        sourceImage={khaara}
-        titleText="Khaara Biscuit"
-        descTxt={khaaraTxt}
-      />
-      <MenuCard
-        sourceImage={assorted}
-        titleText="Assorted Box"
-        descTxt={assortedTxt}
-      />
-      <MenuCard
-        sourceImage={dmBites}
-        titleText="Doozy Monster Bites"
-        descTxt={dmBitesTxt}
-      />
-      <MenuCard
-        sourceImage={dacBites}
-        titleText="Dunk-a-Chunk Bites"
-        descTxt={dacBitesTxt}
-      />
-      <MenuCard
-        sourceImage={pupNibbles}
-        titleText="Pup Nibbles"
-        descTxt={pupNibblesTxt}
-      />
-      <MenuCard
-        sourceImage={bananaLoaf}
-        titleText="Banana Bread Loaf"
-        descTxt={bananaLoafTxt}
-      />
-      <MenuCard
-        sourceImage={spLoaf}
-        titleText="Spiced Orange Loaf"
-        descTxt={spLoafTxt}
-      />
-      <div></div>
+      <div id="menu-container">
+        <MenuCard sourceImage={DM} titleText="Doozy Monster" descTxt={dmTxt} />
+        <MenuCard sourceImage={dac} titleText="Dunk-a-Chunk" descTxt={dacTxt} />
+        <MenuCard sourceImage={of} titleText="Old-Fashioned" descTxt={ofTxt} />
+        <MenuCard sourceImage={healer} titleText="Healer" descTxt={healerTxt} />
+        <MenuCard
+          sourceImage={khaara}
+          titleText="Khaara Biscuit"
+          descTxt={khaaraTxt}
+        />
+        <MenuCard
+          sourceImage={assorted}
+          titleText="Assorted Box"
+          descTxt={assortedTxt}
+        />
+        <MenuCard
+          sourceImage={dmBites}
+          titleText="Doozy Monster Bites"
+          descTxt={dmBitesTxt}
+        />
+        <MenuCard
+          sourceImage={dacBites}
+          titleText="Dunk-a-Chunk Bites"
+          descTxt={dacBitesTxt}
+        />
+        <MenuCard
+          sourceImage={pupNibbles}
+          titleText="Pup Nibbles"
+          descTxt={pupNibblesTxt}
+        />
+        <MenuCard
+          sourceImage={bananaLoaf}
+          titleText="Banana Bread Loaf"
+          descTxt={bananaLoafTxt}
+        />
+        <MenuCard
+          sourceImage={spLoaf}
+          titleText="Spiced Orange Loaf"
+          descTxt={spLoafTxt}
+        />
+      </div>
     </div>
   );
 }

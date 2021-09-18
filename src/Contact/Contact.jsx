@@ -4,10 +4,10 @@ import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
-    <div className="divContactMain" id="contacts">
+    <div className="section" id="contacts">
       <SectionHeading titleText="Contact" />
-      <p className="pContactPhoneNumber">+1 214 600 2079</p>
-      <div className="divContactIcons">
+      <h2>+1 214 600 2079</h2>
+      <div id="contact-icons">
         <FaWhatsapp
           size="2em"
           href="www.google.com"
